@@ -1,0 +1,271 @@
+ /* Responsive css start */
+@media only screen and (max-width: 1639px) {
+	.container {max-width: 1366px; width: 100%;}
+	h1.large-heading {font-size: 5.75rem;}
+	h1.large-heading span{font-size: 4.725rem;}
+	.top-sub-heading {font-size: 2.725rem;}
+	.scroll-to{right: calc((100% - 1335px) / 2);}
+	.placeholder-text{font-size: 5rem;}
+	.pricing-text{right: calc((100% - 1366px) / 2);}
+	.innovative-box{padding: 120px 40px;}
+}
+@media only screen and (max-width: 1400px) {
+	.main-container > section{padding:80px 0px;}
+	.container {max-width: 1280px; width: 100%;}
+	.scroll-to{right: calc((100% - 1250px) / 2);}
+	.hero-section.style-3 .top-sub-heading{font-size:2.5rem;}
+	h2.large-heading{font-size:3rem;}
+	h2.large-heading span{font-size: 2rem;}
+	.vertical-tab .nav-tabs .nav-item .nav-link{font-size: 24px;}
+	.capability-slider{padding: 0px 60px;}
+	.pricing-text{right: calc((100% - 1280px) / 2);}
+	.power-icon .icon-title{font-size: 16px;}
+	.power-icon .icon-text{font-size: 24px;}
+	.design-video-slider {margin-left: 0; width:90%;}
+	.features-middle-img{padding: 15px 0px 0px;}
+	.innovative-box .h1{font-size:3rem;}
+	.speed-features .item .value{font-size: 48px;}
+	.racing-car-animation{max-width:1200px;}
+}
+@media only screen and (max-width: 1365px) {
+	.container { max-width: 1170px; width: 100%;}
+	.scroll-to{right: calc((100% - 1140px) / 2);}
+	.small-container{max-width: 1170px;}
+	.vertical-tab .nav-tabs .nav-item .nav-link{font-size: 20px;}
+	.variation-section .color-variation-slider .owl-dots{margin: 0 0 0 0px; left: 0; right: auto; padding: 10px 0px;}
+	.pricing-text{right: calc((100% - 1170px) / 2); top:100px; }
+	.morevideo-slider.owl-carousel .owl-video-play-icon{height: 60px; width: 60px; margin-left: -30px; margin-top: -30px; background-size: 24px;}
+	.design-video-slider.owl-carousel .owl-video-play-icon{height: 60px; width: 60px; margin-left: -30px; margin-top: -30px; background-size: 24px;}
+	.site-navigation > ul.header-social-media{display:none; }
+	.features-middle-img{padding:60px 0px 0px; }
+	.content-box .text h3{font-size:18px;}
+	.bus-layout.testimonial-wrapper .quote-text{padding: 40px 30px;}
+	.bus-intro {padding: 80px 60px 140px;}
+}
+@media only screen and (max-width: 1199px) {
+	.site-navigation .main-menu li{padding: 0px 5px;}
+	.site-navigation .main-menu li a{ font-size: 15px;}
+	.site-navigation .header-social-media li{margin: 0px 8px;}
+	.site-navigation .header-social-media{margin-left: 10px;}
+	.top-sub-heading {font-size: 2.325rem;}
+	h1.large-heading {font-size: 4.75rem;}
+	h1.large-heading span {font-size: 3.925rem;}
+	h2.large-heading {font-size: 3.125rem;}
+	.video-section::before{ display:none;}
+	.scroll-to {right: 30px;}
+	.pricing-text{top:100px; right:15px; font-size: 20px; }
+	.pricing-text span{font-size: 28px; }
+	.hero-section.style-3 .top-sub-heading{font-size: 2.5rem;}
+	.innovative-design-img{min-width:1100px; margin-left: -680px;}
+	.design-video-slider {margin-left:0; width: 90%;}
+	.power-icon{margin-top:0; }
+	.gallery-slider.overflow-show{max-width:420px; margin:0 auto;}
+	.circle-animation{max-width: 320px; max-height: 320px;}
+	.speed-features .item .value{display:block; }
+	.hero-section.racing-car h1.large-heading{font-size: 3.925rem;}
+	.hero-section.racing-car .animation-text{font-size: 8.5em;}
+	.racing-car-animation{max-width:850px; }
+}
+@media only screen and (max-width: 991px) {
+	.logo{padding-top:15px; padding-bottom:15px; z-index: 100;}
+	.logo{-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+	.site-navigation{background:var(--main-color); position: fixed; z-index: 11; width: calc(100% - 70px); left: 0; top: 0; height: 100vh; padding-top:78px; transform: translateX(-100%); transition: all 600ms; padding-bottom: 50px; max-width:350px; }
+	.menu-open .site-navigation{transform: translateX(0); overflow: scroll;}
+	body.menu-open {overflow: hidden;}
+	.site-navigation::before { height: 79px; content: ""; background: #fff; width: 100%; position: absolute; top: 0;}
+	.site-navigation .main-menu{width:100%; text-align:left; padding:15px 0px; }
+	.site-navigation .main-menu li{padding:0px; display:block; border-bottom:1px solid rgba(255,255,255,0.3);  }
+	.site-navigation .main-menu li a{line-height: 1.5; padding:10px 15px; color: rgba(255,255,255,0.9); }
+	.light-header.fixed .site-navigation .main-menu li a{color: rgba(255,255,255,0.9);}
+	.site-navigation .main-menu > li > a::after{display:none; }
+	.site-navigation .main-menu .sub-menu{position: relative; opacity: 1; top: 100%; visibility: visible; background: rgba(0,0,0,0.1); -webkit-box-shadow: none; box-shadow:none;
+    left: 0; width: 100%; -webkit-transform: translateY(0px); transform: translateY(0px); padding:0; }
+    .site-navigation .main-menu .sub-menu li{border-bottom:1px solid rgba(255,255,255,0.3); padding:0;  }
+    .site-navigation .main-menu .sub-menu li a{padding:10px 15px; line-height: 1.5;}
+    .site-navigation .main-menu .sub-menu li a:hover, .site-navigation .main-menu .sub-menu li:hover a {color:rgba(255,255,255,0.7);}
+	.site-navigation .header-social-media {margin-left:0; width:100%; text-align:left; padding:0px 15px 30px;}
+	.site-navigation .header-social-media li a{line-height:1; color: rgba(255,255,255,0.9);}
+	.light-header.fixed .site-navigation .header-social-media li a{color: rgba(255,255,255,0.9);}
+	.menu-icon {display: block;}
+	.about-text{padding-left:15px; }
+	.about-text::before{display:none;}
+	.offset-y-100{-wenkit-transform: translateY(0px); transform: translateY(0px);}
+	.feature-box{margin-top:0; }
+	.features-row{padding-bottom: 0;}
+	h2.large-heading { font-size:3.0rem;}
+	h2.large-heading span{font-size:1.750rem;}
+	.bicycle-img{bottom: -50px;}
+	.testimonial-slider .item .testimonial__photo{max-width: 100%; flex: 0 0 100%;}
+	.testimonial-slider .item .testimonial__content {flex: 0 0 100%; max-width: 100%;}
+	.testimonial-slider .item .testimonial__photo img{max-width: 300px;}
+	.m-bg-hide{display:none; }
+	.horizontal-menu li{margin-bottom:15px; }
+	.placeholder-text{display:none; }
+	.container-fluid{padding-left:15px; padding-right:15px;  }
+	.capability-slider{padding: 0px 0;}
+	.capability-slider .owl-dots{margin:30px 0px 0px; width:100%; display:table; text-align:center; }
+	.capability-slider .owl-dots button.owl-dot{display:inline-block; background:var(--heading-color); width:auto; padding:0;width: 16px; height: 16px;
+    opacity: 0.5;margin: 0px 3px; transition:all 400ms; -webkit-transition:all 400ms; box-shadow:none; outline:none;   }
+	.capability-slider .owl-dots button.owl-dot.active{background:var(--main-color); opacity:1; }
+	.vertical-tab .nav-tabs{max-width: 100%; flex: 0 0 100%; padding-right: 0;}
+	.vertical-tab .tab-content{max-width: 100%; flex: 0 0 100%;}
+	.vertical-tab .tab-content .tab-pane{padding-left: 0;}
+
+	.site-navigation > ul.header-social-media{display:block; }
+	.design-video-slider{margin-left: 0; width: 100%;}
+	.innovative-design-img{display:none; }
+	.morevideo-slider{margin-left: 0;}
+	.morevideo-slider .owl-nav {position: static; bottom: 0; left: 100%; width: 120px; margin-left: auto; margin-right: auto; text-align: center; margin-top: 30px;}
+	.power-icon .col{margin-bottom:30px;}
+	.img-wrapper{margin-bottom:30px;}
+	.features-middle-img{text-align:center; }
+	.features-middle-img img{max-height:600px;}
+	.features-box{max-width: 420px; margin: auto;}
+	.variation-section .color-variation-slider .owl-dots{position:static; width: 100%; margin:15px 0px 0px; }
+	.variation-section .owl-dots button.owl-dot::before{display:none; }
+	.variation-section .owl-dots button.owl-dot.active{left:0; }
+	.feature-icon{height: 160px; width: 160px;}
+	.feature-icon::before, .feature-icon::after{height: 160px; width: 160px;}
+	.feature-icon img{max-height: 100px; max-width: 100px;}
+	.feature-box{padding:30px 0px 30px 15px;}
+	.feature-box .features-text h4{font-size: 1.2rem;}
+	.img-wrapper img{width:100%;}
+	.speed-features .item .value{font-size:36px;}
+	.innovative-box{float: left; width:50%; }
+	.innovative-design-video{float:left; padding:0; height:100%; width:50%; }
+	.innovative-design-info{padding: 50px 0px;}
+	.racing-car .tab-section{padding-bottom:30px;}
+	.racing-car .testimonial-item .person-img{flex: 0 0 300px; max-width: 300px;}
+	.racing-car .testimonial-item .quote-text{flex: 0 0 calc(100% - 300px); max-width: calc(100% - 300px);}
+	.racing-car .testimonial-item blockquote{font-size: 20px;}
+	.racing-car .testimonial-item .person-img::before{height:60px;width:60px; font-size:32px; line-height:30px; padding:14px; top:10px; left:10px;}
+	.racing-car.color-section .color-variation-slider .owl-dots{width: 100%; position: static; margin:30px 0px 0px;}
+	.column-4.st-gallery li{flex: 0 0 50%; max-width: 50%;}
+}
+@media only screen and (max-width: 767px) {
+	p{margin-bottom:15px; }
+	.top-sub-heading{font-size: 1.5rem;}
+	h1.large-heading {font-size: 3.50rem;}
+	h1.large-heading span {font-size: 2.75rem;}
+	.banner-content{padding-top:15px; text-align:center; }
+	.testimonial-slider .item .testimonial__content{padding-left:0; }
+	.testimonial-slider .item .testimonial__content::before{font-size: 8rem; left: 0;}
+	.text-block p br{display:none;}
+	.container-fluid{padding-right:15px; padding-left:15px;}
+	.img-wrapper{margin-bottom:30px; }
+	.morevideo-slider{margin-left: 0;}
+	table.specifications td, table.specifications th{font-size:16px; }
+	.morevideo-slider .owl-nav{margin-top: 25px; left: 0; margin-left: 0; position: relative;}
+	.main-container > section{padding: 50px 0px;}
+	
+	
+	.h1, h1{font-size:2rem }
+	.color-variation-slider .owl-dots button.owl-dot{height: 32px; width: 32px;}
+	.design-video-slider{margin-left:0%; width: 100%;}
+	.double-top-padding{padding-top:30px;}
+	.double-bottom-padding{padding-bottom:30px;}
+	.text-lead, p.text-lead, .text-lead > *{font-size: 18px; line-height: 1.3;}
+	.pricing-text{position: static; width: 100%; text-align: center; margin: 30px 0px; z-index: 1;}
+	.height-100 > *{height:auto; }
+	.hero-section.style-3 .top-sub-heading{margin-bottom: 0px;}
+	.hero-section.style-3 .background-inner, .hero-section.style-3 .overlay-bg{background-repeat: no-repeat !important; background-position: right bottom !important; background-size: auto 500px !important;}
+	.hero-section.style-2 .background-inner{background-repeat: no-repeat !important; background-position: center bottom !important; background-size: auto 500px !important;}
+	.banner-features{display:none }
+	.hero-section.style-3 .top-sub-heading{font-size: 2.1rem;}
+	h2.large-heading{font-size: 2.50rem;}
+	.scroll-to{right:0; }
+	.innovative-design-img{position: static; display:none; }
+	.before-after-car-container {margin: 0px 0px;}
+	.height-100{height:calc(100vh - 56px); }
+	.mobile-hidden{display:none !important; }
+	.desktop-hidden{display:block !important; }
+	.features-item{text-align:center; }
+	.feature-img{margin-bottom:15px; position:relative; }
+	.feature-img img{max-width:480px; display:table !important; margin:auto; border:1px solid #dddddd;    }
+	.gallery-slider.overflow-show{max-width:320px; margin:0 auto;}
+	.nav-tabs{display: none; margin-top: 0px; border: 1px solid  var(--dark-gray-2); border-top:0px; }
+	.vertical-tab .nav-tabs{display: none; margin-top: 0px; border: 1px solid  var(--dark-gray-2); border-top:0px; }
+	.select-filter{cursor: pointer; padding: 15px 20px; text-align: left; color:#000000; font-size: 18px; position: relative; display: block; text-transform: uppercase; font-weight: 700; border: 2px solid var(--main-color); width:100%; font-family: 'Poppins', sans-serif; }
+	.select-filter::before { content: "\f0d7"; font-family: 'Font Awesome 5 Free'; font-weight:900;  position: absolute; right:20px; top: 0; font-size:30px; line-height:58px;}
+	.nav-tabs .nav-item .nav-link.active::before{display:none; }
+	.nav-tabs .nav-item{margin:0;}
+	.nav-tabs .nav-item .nav-link::after {display:none;}
+	.nav-tabs .nav-item .nav-link{padding: 15px 20px; border-top: 1px solid var(--dark-gray-2); border-radius: 0;}
+	.vertical-tab .nav-tabs .nav-item .nav-link.active::before{display:none; }
+	.vertical-tab .nav-tabs .nav-item .nav-link{padding: 15px 20px; border-top: 1px solid var(--dark-gray-2); border-radius: 0;}
+	.feature-box{display: flex; align-items:center; padding: 15px 15px 15px 15px; }
+	.feature-box .features-text{flex: 0 0 calc(100% - 200px); max-width: calc(100% - 200px); width: 100%;}
+	.feature-icon{margin-bottom:0px;}
+	.racing-car .testimonial-item .person-img {flex: 0 0 100%;max-width: 300px; margin: auto;display: table;position: relative;}
+	.racing-car .testimonial-item .quote-text{flex: 0 0 100%; max-width:100%; padding:30px 0px 0px;}
+	.racing-car .testimonial-item blockquote{font-size: 20px; text-align:center; }
+	.racing-car .testimonial-item .quote-details{text-align: center; margin-top:30px; }
+	.racing-car .owl-nav {position: static; text-align: center; margin-top: 30px;}
+	.innovative-box{padding:80px 30px;}
+	.innovative-slider-wrapper .owl-nav{bottom: 10px; right: 10px;}
+	.hero-section.racing-car{overflow:hidden; }
+	.hero-section.racing-car h1.large-heading {font-size: 2.75rem;}
+	.hero-section.racing-car .animation-text{font-size:6.5em; top:60%;}
+	.speed-features{flex-wrap:wrap;}
+	.speed-features .item{width: 100%; text-align: center; flex:0 0 33.33%; font-size:20px; }
+	.speed-features .item:not(:last-child){margin-bottom:30px; padding-right:0px; margin-right:0px; }
+	.speed-features .item::after {display:none !important;}
+	.racing-car-animation{min-width:750px; max-width:inherit; }
+	.hero-section .height-100 >.row{height:100%; align-content: center; }
+	.hero-section .height-100 > .row .banner-content{margin-top:-50px; }
+	.racing-car.hero-section .height-100 > .row{align-content: flex-start;}
+	.racing-car.hero-section .banner-content{padding-top: 50px;}
+	.bus-variation-box .variation-title{font-size:36px;}
+	.bus-intro{padding:60px 30px 45px;}
+	.bus-layout.testimonial-wrapper{padding:0; margin-top:-30px;}
+	.bus-layout.testimonial-wrapper .testimonial-slider .owl-nav{text-align: center; position: static; margin-top:15px;}
+	.bus-layout.testimonial-wrapper .quote-text{line-height: 1.4; font-size: 18px;}
+}
+@media only screen and (max-width:639px) {
+	.hero-section.style-3 .background-inner, .hero-section.style-3 .overlay-bg{background-size: auto 350px !important;}
+	.hero-section.style-2 .background-inner{background-size: auto 350px !important;}
+	.power-icon .col {margin-bottom: 30px;width: 100%; flex: 0 0 calc(100% - 30px); margin: 0 15px 30px; max-width: calc(100% - 30px); text-align: left;}
+	.power-icon .icon-img {margin: 0px 30px 0px 0px; float: left;}
+	.banner-content{padding-top:50px;}
+	.innovative-box{width: 100%; float:none;}
+	.innovative-design-video{width: 100%; float:none; height: auto; background-size:cover; display:table;}
+	.innovative-design-video .btn{position:static; transform:none; margin:120px auto; display:table;  }
+	.innovative-design-video .btn:hover{transform:scale(1.1);}
+	.engine-specifications{flex-wrap: wrap;}
+	.engine-specifications li{flex: 0 0 50%; max-width:50%; padding-right:0px; margin-right:0px;}
+	.hero-section.racing-car .animation-text{font-size:4.5em; top:60%;}
+	.bus-variation-box .variation-title{font-size:24px;}
+	.bus-variation-box{padding-left:15px; padding-right:15px;}
+}
+@media only screen and (max-width:574px) {
+	.feature-box::before{display:none; }
+	.feature-box{display:table; text-align:center; padding:15px 0px 15px 0px; margin:15px 0px 0px 0px; }
+	.feature-icon{display: table; margin:0 auto 30px; position:relative; }
+	.feature-icon::before, .feature-icon::after{left:0px;}
+	.feature-icon::after{left:-10px;}
+	.feature-icon img {position: absolute; left: 50%; top: 50%; margin-top: -55px; margin-left: -55px;}
+	.feature-box .features-text{max-width:100%; }
+	.engine-specifications{flex-wrap: wrap;}
+	.engine-specifications li{flex: 0 0 100%; max-width:100%;}
+	.speed-features .item{flex:0 0 100%; }
+}
+@media only screen and (max-width: 479px) {
+	.column-3.st-gallery li{flex: 0 0 50%; max-width: 50%;}
+	#features1 .ft-point{top:12%; }
+	#features2 .ft-point {left: 55%; top: 38%;}
+	#features3 .ft-point{top:28%; }
+	#features4 .ft-point{top:30%; left: 47%;  }
+	#features5 .ft-point {left: 60%;top: 30%;}
+	.feature-img img{max-width:320px;}
+	.innovative-box .h1{font-size: 2.5rem;}
+	.hero-section.racing-car .animation-text{font-size:3.6em; top:60%;}
+	.bus-variation-box .variation-details .item {flex: 0 0 50%; max-width: 100%;}
+}
+@media only screen and (max-height:766px) {
+	.variation-section .owl-item img{max-width: 850px; margin: auto;}
+	.banner-content{padding-top:0px; }
+}
+
+@media only screen and (max-height:450px) {
+
+} 
